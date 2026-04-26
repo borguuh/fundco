@@ -13,20 +13,20 @@ export default function InvestmentApproach() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-primary text-primary-foreground py-16 md:py-24">
+      <section className="bg-gradient-to-br from-primary to-primary/90 text-primary-foreground py-24 md:py-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Investment Approach</h1>
-          <p className="text-lg opacity-95">
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-balance">Our Investment Approach</h1>
+          <p className="text-lg md:text-xl opacity-90 leading-relaxed max-w-2xl">
             Strategic investment in real assets that deliver financial returns and environmental impact
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-invert max-w-none mb-12">
-            <h2 className="text-3xl font-bold mb-6 text-foreground">Our Strategy</h2>
+          <div className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground leading-tight">Our Strategy</h2>
             <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
               There is a growing market for small and medium-sized businesses in the real sector, providing accessible and affordable essential services to unserved or under-served markets, with a potential to scale. These real sector companies are creating new markets, with long term viability, a strong potential to reduce the impact of climate change and promote local economic growth because they are creating jobs, promoting gender diversity and reducing poverty.
             </p>
@@ -39,8 +39,8 @@ export default function InvestmentApproach() {
           </div>
 
           {/* Key Pillars */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Core Investment Pillars</h3>
+          <div className="mb-16">
+            <h3 className="text-3xl md:text-4xl font-bold mb-10 text-foreground leading-tight">Core Investment Pillars</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 {
@@ -60,17 +60,17 @@ export default function InvestmentApproach() {
                   description: 'Link institutional capital with quality infrastructure assets through professionally managed funds.'
                 }
               ].map((pillar, idx) => (
-                <Card key={idx} className="bg-secondary border border-border p-6">
-                  <h4 className="text-lg font-semibold mb-2 text-foreground">{pillar.title}</h4>
-                  <p className="text-foreground/70">{pillar.description}</p>
+                <Card key={idx} className="bg-gradient-to-br from-secondary to-secondary/80 border border-border/40 p-8 rounded-xl hover:shadow-lg hover:border-primary/30 transition-all duration-300">
+                  <h4 className="text-xl font-bold mb-4 text-foreground">{pillar.title}</h4>
+                  <p className="text-foreground/70 leading-relaxed">{pillar.description}</p>
                 </Card>
               ))}
             </div>
           </div>
 
           {/* Investment Criteria */}
-          <Card className="bg-secondary border border-border p-8 mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-foreground">Investment Criteria</h3>
+          <Card className="bg-gradient-to-br from-secondary to-secondary/80 border border-border/40 p-10 rounded-xl mb-16">
+            <h3 className="text-3xl font-bold mb-8 text-foreground">Investment Criteria</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 'Provides essential services to society',
@@ -113,7 +113,7 @@ export default function InvestmentApproach() {
           </div>
 
           {/* SDGs */}
-          <Card className="bg-primary text-primary-foreground p-8">
+          <Card className="bg-gradient-to-br from-primary to-primary/90 text-primary-foreground p-10 rounded-xl shadow-lg mb-16 border-0">
             <h3 className="text-2xl font-bold mb-4">Sustainable Development Goals</h3>
             <p className="mb-6 opacity-95">
               Our investment approach holds great potential to deliver the three pillars of the SDGs: economic, environmental and social sustainability. We focus on investments that advance SDG 8 (Decent Work and Economic Growth), SDG 11 (Sustainable Cities and Communities), and SDG 13 (Climate Action).
@@ -126,9 +126,9 @@ export default function InvestmentApproach() {
       </section>
 
       {/* Partnership */}
-      <section className="py-16 md:py-24 bg-secondary">
+      <section className="py-24 md:py-32 bg-secondary/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-6 text-foreground">Strategic Partnerships</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground leading-tight">Strategic Partnerships</h2>
           <p className="text-foreground/80 mb-8 leading-relaxed">
             We achieve impact through partnerships with thought-leaders in blended finance, infrastructure, fintech, and development finance. These partnerships enable us to:
           </p>
@@ -151,10 +151,10 @@ export default function InvestmentApproach() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6 text-foreground">Learn More About Our Funds</h2>
-          <p className="text-lg text-foreground/80 mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground leading-tight">Learn More About Our Funds</h2>
+          <p className="text-lg text-foreground/70 mb-10 max-w-2xl mx-auto">
             Explore our current investment opportunities and sector focus
           </p>
           <Link href="/funds">

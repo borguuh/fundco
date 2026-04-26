@@ -13,33 +13,33 @@ export default function About() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-primary text-primary-foreground py-16 md:py-24">
+      <section className="bg-gradient-to-br from-primary to-primary/90 text-primary-foreground py-24 md:py-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About FundCo</h1>
-          <p className="text-lg opacity-95 leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-balance">About FundCo</h1>
+          <p className="text-lg md:text-xl opacity-90 leading-relaxed max-w-2xl">
             We are a specialized alternative asset manager mobilizing and investing local capital in real assets that will lead the transition to a low-carbon economy.
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-invert max-w-none mb-12">
-            <h2 className="text-3xl font-bold mb-6 text-foreground">Who We Are</h2>
-            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+          <div className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground leading-tight">Who We Are</h2>
+            <p className="text-lg text-foreground/75 mb-6 leading-relaxed">
               As demand for asset allocation to alternatives continues to increase, we see a market where alternatives are becoming more valuable relative to other assets, and supply remains insufficient.
             </p>
-            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+            <p className="text-lg text-foreground/75 mb-6 leading-relaxed">
               We are well positioned to help institutional investors access this asset class and deliver risk-adjusted returns alongside proactive management of environmental, social and governance (ESG) considerations.
             </p>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-foreground/75 leading-relaxed">
               We do this sustainably in partnership with our development partners, thought-leaders in blended finance, infrastructure, fintech, and development finance to drive innovation beyond conventional asset management.
             </p>
           </div>
 
           {/* Key Strengths */}
-          <Card className="bg-secondary border border-border p-8 mb-12">
+          <Card className="bg-gradient-to-br from-secondary to-secondary/80 border border-border/40 p-10 rounded-xl mb-16">
             <h3 className="text-2xl font-bold mb-6 text-foreground">Our Strengths</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[

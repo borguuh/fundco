@@ -13,28 +13,28 @@ export default function Funds() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="bg-primary text-primary-foreground py-16 md:py-24">
+      <section className="bg-gradient-to-br from-primary to-primary/90 text-primary-foreground py-24 md:py-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Funds</h1>
-          <p className="text-lg opacity-95 leading-relaxed">
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-balance">Our Funds</h1>
+          <p className="text-lg md:text-xl opacity-90 leading-relaxed max-w-2xl">
             Tailored strategies to preserve and grow institutional investments in sustainable infrastructure assets.
           </p>
         </div>
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-24 md:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-bold mb-4 text-foreground">Our Mission</h2>
-              <p className="text-foreground/80 leading-relaxed">
+              <h2 className="text-4xl font-bold mb-6 text-foreground leading-tight">Our Mission</h2>
+              <p className="text-lg text-foreground/75 leading-relaxed">
                 We innovatively unlock domestic finance for small and medium-sized infrastructure in unserved or under-served sectors that provide essential services to society, are recession resilient, demonstrate long term viability with predictable cashflows and reduce the impact of climate change.
               </p>
             </div>
             <div>
-              <h2 className="text-3xl font-bold mb-4 text-foreground">Our Approach</h2>
-              <p className="text-foreground/80 leading-relaxed">
+              <h2 className="text-4xl font-bold mb-6 text-foreground leading-tight">Our Approach</h2>
+              <p className="text-lg text-foreground/75 leading-relaxed">
                 Our range of strategies and opportunities are tailored to preserve and grow institutional investments in sustainable infrastructure assets alongside proactive management of environmental, social and governance (ESG) considerations.
               </p>
             </div>
